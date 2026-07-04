@@ -28,8 +28,8 @@ DISTSTYLE AUTO;
 
 CREATE TABLE coingecko_curated.global_metrics (
     active_cryptocurrencies INT,
-    usd DOUBLE PRECISION,
-    btc DOUBLE PRECISION,
+    market_volume_usd DOUBLE PRECISION,
+    market_cap_pct_btc DOUBLE PRECISION,
     market_cap_change_percentage_24h_usd DOUBLE PRECISION,
     volume_change_percentage_24h_usd DOUBLE PRECISION,
     updated_at TIMESTAMP
